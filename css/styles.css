@@ -1,0 +1,181 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  /* padding: 0 3%; */
+  text-align: center;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 2rem;
+}
+
+.navbar-brand {
+  font-family: "Merienda", cursive;
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 2rem;
+  text-align: left;
+}
+
+/* Title Sections */
+#title {
+  background-color: #eeeeee;
+  padding-top: 80px;
+}
+
+.title-heading {
+  font-size: 5rem;
+  padding-top: 150px;
+}
+
+.title-p {
+  font-size: 3rem;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+/* Hours Section  */
+
+#hours {
+  margin: 4% 10%;
+}
+
+.hours-heading {
+  font-size: 5rem;
+  padding: 15% 0;
+  text-align: left;
+}
+
+.hours-time {
+  font-size: 1.8rem;
+  line-height: 2;
+  text-align: left;
+}
+
+.hours-p {
+  visibility: hidden;
+}
+
+.hours-image {
+  padding: 40px;
+}
+
+/* Contacts Section  */
+
+#contact {
+  background-color: #eeeeee;
+  margin: 4% 10%;
+}
+
+.contact-heading {
+  font-size: 5rem;
+  padding: 15% 5% 3%;
+}
+
+.contact-p {
+  font-size: 2rem;
+  line-height: 2;
+  text-align: center;
+}
+
+.contact-email {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+
+/* Google Maps  */
+
+.google-maps {
+  margin: 5%;
+}
+
+/* Menu Section */
+
+#menu {
+  margin: 4% 15%;
+}
+
+.menu-heading {
+  font-size: 5rem;
+}
+
+.menu-image {
+  padding-bottom: 5%;
+}
+
+.menu-category {
+  font-size: 4rem;
+  padding: 0 5% 5%;
+  text-align: left;
+}
+
+.menu-items {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+li {
+  padding-bottom: 20px;
+}
+
+/* Footer Section  */
+
+#footer {
+  background-color: #8f9599;
+  padding: 0 100px;
+  color: #fff;
+}
+
+.footer-heading {
+  font-family: "Merienda", cursive;
+  font-size: 5rem;
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.footer-p {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.footer-email {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-icon {
+  margin: 50px 10px;
+}
+
+.footer-copy {
+  font-size: 10px;
+}
+
+@media (max-width: 800px) {
+  .hours-time {
+    position: static;
+    text-align: center;
+  }
+
+  .hours-heading {
+    text-align: center;
+  }
+
+  .menu-category {
+    text-align: center;
+  }
+}
